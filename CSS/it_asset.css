@@ -1,0 +1,35 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#modal-dialog {
+  max-width: 99vw;
+  margin: 0;
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+}
+.td-addItAsset td {
+  padding: 0;
+  padding: 8px 3px;
+  text-align: center;
+}
+#serial_number, #product_number, #device_name, #brand, #supplier {
+  width: 150px;
+}
+#unit_price {
+  width: 100px;
+}
+#employee_assign {
+  padding-left: 0;
+  width: 170px;
+}
+#d-type {
+  width: 180px;
+}

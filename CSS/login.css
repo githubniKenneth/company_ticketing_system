@@ -1,0 +1,27 @@
+
+.bg{
+    background:#f4f4f4;
+    overflow-x: hidden;
+}
+
+.form-container{
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+
+}
+
+
+.row{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100%;
+}
+.main-it-helpdesk {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background: linear-gradient(180deg, #fff, #ffff99);
+  margin-top: 80px
+}

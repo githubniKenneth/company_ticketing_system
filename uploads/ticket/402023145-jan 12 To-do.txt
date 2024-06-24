@@ -1,0 +1,15 @@
+	done - add datatables script to all tables
+
+delete button on admin/it side they created
+
+add confirmation on deleting datas
+
+	done - Edit password
+
+$_SESSION message on same page - responds after refresh (delay)
+
+hindi dapat magblank ang forms kung may mali sa input ng user
+
+	done - optimization
+
+telegram = varchar 

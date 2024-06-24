@@ -1,0 +1,21 @@
+Dashboard
+-sa taas ng recent tickets ilagay ang overview ng mga assigned tickets
+
+
+assigned personel
+closed by
+
+
+can be assigned by admin or it
+
+
+deactivate for resigned user
+
+page for admin and it
+display it
+
+admin/it 
+can add ticket too
+
+Settings
+-System applications

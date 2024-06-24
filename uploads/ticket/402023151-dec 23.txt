@@ -1,0 +1,16 @@
+<?php 
+                    if($company_id == "")
+                    {
+                        ?>
+                            <option value="">Select Department</option>
+                        <?php                  
+                    }
+                    else
+                    {
+                        foreach ($departmentInfo as $department) 
+                        {
+                            
+                            echo "<option value=" .$department['department_id']. ">" .$department['department_name']. "</option>";
+                        }
+                    }
+                ?>

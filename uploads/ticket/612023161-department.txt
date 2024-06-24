@@ -1,0 +1,23 @@
+                            <!-- <label for="">Department</label>
+                            <select name="departmentName" id="" class="custom-select" required>
+                                <option value="">Select Department</option> -->
+                                
+                                <?php 
+                                    // $departmentSql = "SELECT department_id, department_name, company_id FROM department WHERE company_id=17";
+
+                                    // $departmentQuery = mysqli_query($con, $departmentSql);
+                                    // $departmentRowCheck = mysqli_num_rows($departmentQuery);
+
+                                    // if($departmentRowCheck != 0){
+                                    //     while($departmentRow = mysqli_fetch_assoc($departmentQuery)){
+                                    //         $departmentId= $departmentRow['department_id'];
+                                    //         $departmentNames = $departmentRow['department_name'];
+                                            ?>
+                                                <!-- <option value="<?php echo $departmentId;?>"><?php echo $departmentNames; ?> </option> -->
+                                            <?php
+                                    //     }
+                                    // }
+                                ?>
+                                <!-- <option value="HR">HR</option>
+                                <option value="IT">IT</option> -->
+                            <!-- </select> -->

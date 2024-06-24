@@ -1,0 +1,5 @@
+file naming = user_id-ticket_year,ticket_number-file_name-td_id
+
+doc_directory = directory
+doc_name = file name only
+doc_type = file type only

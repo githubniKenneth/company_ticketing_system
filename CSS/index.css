@@ -1,0 +1,7 @@
+/* Public Home Main */
+.home-main {
+  height: calc(100vh - 80px);
+  margin-top: 80px;
+  background: linear-gradient(180deg, #fff, #ffff99);
+}
+/* Button for carousel */

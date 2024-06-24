@@ -1,0 +1,8 @@
+.main-tel-directory {
+  height: calc(100vh - 80px);
+  background: linear-gradient(180deg, #fff, #ffff99);
+  margin-top: 80px;
+}
+#public_tel_local_filter {
+  display: none;
+}

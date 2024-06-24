@@ -1,0 +1,15 @@
+REGISTRATION ERROR HANDLING
+
+Telegram number 1== 11 digits 
+Invalid Number
+
+if username row == 1
+Username already used
+
+if password1 !== password2
+Password didn't match
+
+Login error
+
+if username !== password
+Invalid username and password

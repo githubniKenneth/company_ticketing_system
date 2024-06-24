@@ -1,0 +1,65 @@
+
+INNER JOIN
+
+SELECT 
+
+a.first_name ,
+b.subject as 'Subject', b.ticket_description as 'Description', b.date_created
+FROM 
+user a 
+INNER JOIN ticket b ON a.id=b.user_id;
+
+
+SELECT
+a.department_name
+b.company_name
+FROM 
+department a
+INNER JOIN company b ON a.id=b.department_id
+
+
+SELECT
+a
+b.company_name,
+c.department_name
+FROM 
+company a
+INNER JOIN department c ON b.id=c.company_id
+
+^ dapat same data
+
+
+ticket list
+"SELECT 
+                        a.first_name, a.last_name,
+                        b.subject, b.ticket_description, b.date_created, b.status, b.message
+                        FROM 
+                        user a 
+                        INNER JOIN ticket b ON a.id=b.user_id";
+
+company and department connection
+
+SELECT 
+a.id, a.company_name,
+b.date_created, b.department_name
+FROM
+company a
+INNER JOIN department b ON a.id=b.company_id;
+
+
+$departmentSql = "SELECT a.company_id, b.department_name
+                                    FROM company a
+                                    INNER JOIN department b 
+                                    ON a.company_id=b.company_id";
+add user type on taable
+
+
+user table
+
+SELECT 
+a.* ,
+b.company_name,
+c.department_name
+FROM ((user a
+INNER JOIN company b ON a.company_id=b.company_id)
+INNER JOIN department c ON a.department_id=c.department_id);
